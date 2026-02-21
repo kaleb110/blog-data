@@ -47,8 +47,12 @@ If you need a few ideas, here's what you can try:
 MDXEditor embeds CodeMirror for code editing.
 
 ```tsx
-export default function App() { // [!code highlight]
-  return (<div>Hello world</div>) // [!code ++]
+export default function App() { 
+  return (<div>
+  <div>Hello world</div>// [!code ++]
+  <div>Hello world</div>// [!code --]
+  <div>Hello world</div>// [!code highlight]
+  </div>) 
 }
 ```
 
